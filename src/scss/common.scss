@@ -1,0 +1,6 @@
+$default: 250px;
+.hoge {
+  color: red;
+  width: $default;
+  span {width: #{$default};}
+}
